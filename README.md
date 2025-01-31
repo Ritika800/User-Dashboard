@@ -26,7 +26,7 @@ This is a simple User Management Dashboard that allows users to be added, delete
 <br> 2. POST /api/users → Add a new user </br>
 <br> 3. DELETE /api/users/:id → Delete a user </br>
 
-**Since no database is used, the data is stored in memory and will be lost when the server restarts.**
+<br> Since no database is used, the data is stored in memory and will be lost when the server restarts. </.br>
 
 **Frontend Components**
 <br> 1. UserList → Displays the list of users. </br>
