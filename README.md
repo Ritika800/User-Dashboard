@@ -38,7 +38,7 @@ This is a simple User Management Dashboard that allows users to be added, delete
 ***State Management Issues:***
 
 <ol> 1. Managing the state properly in React, especially ensuring updates reflect instantly when users are added or deleted. </ol>
-<br> 2. Handling asynchronous API calls and ensuring proper re-renders. </br> 
+<ol> 2. Handling asynchronous API calls and ensuring proper re-renders. </ol> 
 
 ***API Integration Challenges:***
 
