@@ -4,14 +4,14 @@
 This is a simple User Management Dashboard that allows users to be added, deleted, and displayed in a list format. The project is built using React.js for the frontend and Node.js/Express.js for the backend. Since there is no database integration, user data is managed in memory (temporary storage).
 
 **Features**
- <br> <i> Add new users </i> </br>
-<br> 2.Display a list of users </br>
- <br> 3.Delete users </br>
+ <br> 1. Add new users  </br>
+<br> 2. Display a list of users </br>
+ <br> 3. Delete users </br>
 
 **Technologies Used**
-<br> Frontend: React.js, React Router, Axios </br>
-<br> Backend: Node.js, Express.js </br>
-<br> State Management: React useState, useEffect </br>
+<br> 1.Frontend: React.js, React Router, Axios </br>
+<br> 2.Backend: Node.js, Express.js </br>
+<br> 3.State Management: React useState, useEffect </br>
 
 **Setup Instructions**
 <br> 1. Clone the Repository </br>
@@ -22,9 +22,9 @@ This is a simple User Management Dashboard that allows users to be added, delete
 
 **API Endpoints**
 <br> User Routes </br>
-<br> GET /api/users → Get the list of users </br>
-<br> POST /api/users → Add a new user </br>
-<br> DELETE /api/users/:id → Delete a user </br>
+<br> 1. GET /api/users → Get the list of users </br>
+<br> 2. POST /api/users → Add a new user </br>
+<br> 3. DELETE /api/users/:id → Delete a user </br>
 
 **Since no database is used, the data is stored in memory and will be lost when the server restarts.**
 
@@ -36,17 +36,17 @@ This is a simple User Management Dashboard that allows users to be added, delete
 **Difficulties Faced During Development**
 ***State Management Issues:***
 
-<br> Managing the state properly in React, especially ensuring updates reflect instantly when users are added or deleted. </br>
-<br> Handling asynchronous API calls and ensuring proper re-renders. </br> 
+<br> 1. Managing the state properly in React, especially ensuring updates reflect instantly when users are added or deleted. </br>
+<br> 2. Handling asynchronous API calls and ensuring proper re-renders. </br> 
 
 ***API Integration Challenges:***
 
-<br> Setting up Axios properly to communicate between frontend and backend. </br>
-<br> Handling CORS issues when making API requests from React to Express. </br>
+<br> 1. Setting up Axios properly to communicate between frontend and backend. </br>
+<br> 2. Handling CORS issues when making API requests from React to Express. </br>
 
 ***Data Persistence Problem:***
 
-<br> Since there’s no database, user data gets lost when the server restarts. </br>
-<br> Considered using localStorage on the frontend as a temporary solution. </br>
+<br> 1. Since there’s no database, user data gets lost when the server restarts. </br>
+<br> 2. Considered using localStorage on the frontend as a temporary solution. </br>
 
    
