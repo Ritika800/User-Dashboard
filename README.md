@@ -4,7 +4,7 @@
 This is a simple User Management Dashboard that allows users to be added, deleted, and displayed in a list format. The project is built using React.js for the frontend and Node.js/Express.js for the backend. Since there is no database integration, user data is managed in memory (temporary storage).
 
 **Features**
- <br> 1.Add new users </br>
+ <br> <i> Add new users </i> </br>
 <br> 2.Display a list of users </br>
  <br> 3.Delete users </br>
 
